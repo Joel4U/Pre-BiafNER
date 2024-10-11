@@ -13,8 +13,8 @@
 | bert-large-cased (wo doc-context) | SynLSTM | Ontonotes  |  90.85
 | bert-large-cased (wo doc-context) | AELGCN | Ontonotes  | 91.16
 | bert-large-cased  | Biaffine NER | Ontonotes  |  91.3
-| bert-base-cased(Our) (wo doc-context) | Deep Biaffine | Ontonotes  |  90.07
-| bert-large-cased(Our) (wo doc-context)  | Deep Biaffine | Ontonotes  |  90.66
+| bert-base-cased(Our) (wo doc-context) | Synlstm + Deep Biaffine | Ontonotes  |  90.07
+| bert-large-cased(Our) (wo doc-context)  | Synlstm + Deep Biaffine Synlstm| Ontonotes  |  90.66
 
 Conll03
 bert-base-cased, plm_lr: 2e-05, other lr:0.002, lstm layer: 1, epoch: 100, batchsize: 48, Micro F1: 92.31
